@@ -90,7 +90,7 @@ Send ONE message (SendUserMessage) covering all platforms, numbered straight thr
 - Pre-filled answers and the sample chosen (name the library category)
 - ❓ only if something is truly needed from them
 
-End with the reply format, e.g.: "Reply once, like: approve all / approve 1–4, 6 / deny 5 / 7 edit: … / ❓ answers: 2 = yes. For each deny, add how long: deny # now (skip it this time), deny # brief (never show this brief again), or deny # brand (never pitch this brand again), where # is the pitch's number. I'll submit everything right after."
+End with the reply format, e.g.: "Reply once, like: approve all / approve 1, 2, 3 / deny now 4 / deny brief 5 / deny brand 6 / edit 7: make it shorter / ❓ 8 = yes. 'deny now' skips it this time, 'deny brief' means never show that brief again, 'deny brand' means never pitch that brand again. I'll submit everything right after."
 
 Then wait for their ONE reply. Treat anything they don't mention as not approved (don't submit it). Only message again if a submission fails, a photo upload is needed, or their reply is unclear; batch those into one message too.
 
@@ -101,7 +101,7 @@ Then wait for their ONE reply. Treat anything they don't mention as not approved
   - **Just for now:** skip it this run only. Don't record it anywhere; it can show up again in a later run.
   - **This brief forever:** add the brief to their declined History and never pitch it again.
   - **This brand forever:** add the brand to their declined History and never pitch anything from that brand again.
-  If any denial in their reply doesn't say which kind, ask ONCE, in the same message as any other follow-up questions (never a separate message just for this), listing those items together: "For the ones you denied (#4, #7): just for now, this brief forever, or this brand forever?" Don't hold up submitting the approved items while you wait. If they don't answer, treat it as just for now. Only forever denials go into their declined History (and into any "Creator File" update list).
+  Read "deny now #", "deny brief #" and "deny brand #" (and close variations, like "deny 4 forever") as these three kinds. If any denial in their reply doesn't say which kind, ask ONCE, in the same message as any other follow-up questions (never a separate message just for this), listing those items together: "For the ones you denied (#4, #7): just for now, this brief forever, or this brand forever?" Don't hold up submitting the approved items while you wait. If they don't answer, treat it as just for now. Only forever denials go into their declined History (and into any "Creator File" update list).
 - **New samples:** when the creator sends a sample link for a ❓, use it, and save it to their Content Library with a short note on what it's best for (with the rest of this run's changes).
 
 **C. Final summary (short)**
@@ -547,7 +547,7 @@ Say: "Let's do your first run together so you can see how it works."
 
 Run a real scan with their settings. While you work, explain:
 - When the pitch message is ready: "Here's your first batch of pitches. Each one shows the brand, the pay, the campaign type and the pitch I wrote. A ❓ means I need something only you know."
-- How to reply: "Reply once with everything, like: approve #, deny # now, # edit: make it shorter, ❓ # = yes (# is the pitch's number). When you deny something, tell me how long: 'now' skips it this time, 'brief' means never show me that brief again, and 'brand' means never pitch that brand again. Anything you don't mention, I skip."
+- How to reply: "Reply once with everything, like: approve 1, 2, 3 / deny now 4 / edit 5: make it shorter / ❓ 6 = yes. When you deny something, say how long: 'deny now' skips it this time, 'deny brief' means never show me that brief again, and 'deny brand' means never pitch that brand again. Anything you don't mention, I skip."
 - After submitting: "Here's your summary. It shows what I submitted, which follow-ups went out, and anything that still needs you. You'll get one of these after every run."
 
 #### 14. Usage heads-up
