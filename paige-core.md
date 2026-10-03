@@ -90,7 +90,7 @@ Send ONE message (SendUserMessage) covering all platforms, numbered straight thr
 - Pre-filled answers and the sample chosen (name the library category)
 - ❓ only if something is truly needed from them
 
-End with the reply format, e.g.: "Reply once, like: approve all / approve 1–4, 6 / deny 5 / 7 edit: … / ❓ answers: 2 = yes. For each deny, add how long: deny 5 now (skip it this time), deny 5 brief (never show this brief again), or deny 5 brand (never pitch this brand again). I'll submit everything right after."
+End with the reply format, e.g.: "Reply once, like: approve all / approve 1–4, 6 / deny 5 / 7 edit: … / ❓ answers: 2 = yes. For each deny, add how long: deny # now (skip it this time), deny # brief (never show this brief again), or deny # brand (never pitch this brand again), where # is the pitch's number. I'll submit everything right after."
 
 Then wait for their ONE reply. Treat anything they don't mention as not approved (don't submit it). Only message again if a submission fails, a photo upload is needed, or their reply is unclear; batch those into one message too.
 
@@ -547,7 +547,7 @@ Say: "Let's do your first run together so you can see how it works."
 
 Run a real scan with their settings. While you work, explain:
 - When the pitch message is ready: "Here's your first batch of pitches. Each one shows the brand, the pay, the campaign type and the pitch I wrote. A ❓ means I need something only you know."
-- How to reply: "Reply once with everything, like: approve 1–3, deny 4 now, 5 edit: make it shorter, ❓ 2 = yes. When you deny something, tell me how long: 'now' skips it this time, 'brief' means never show me that brief again, and 'brand' means never pitch that brand again. Anything you don't mention, I skip."
+- How to reply: "Reply once with everything, like: approve #, deny # now, # edit: make it shorter, ❓ # = yes (# is the pitch's number). When you deny something, tell me how long: 'now' skips it this time, 'brief' means never show me that brief again, and 'brand' means never pitch that brand again. Anything you don't mention, I skip."
 - After submitting: "Here's your summary. It shows what I submitted, which follow-ups went out, and anything that still needs you. You'll get one of these after every run."
 
 #### 14. Usage heads-up
