@@ -90,14 +90,18 @@ Send ONE message (SendUserMessage) covering all platforms, numbered straight thr
 - Pre-filled answers and the sample chosen (name the library category)
 - ❓ only if something is truly needed from them
 
-End with the reply format, e.g.: "Reply once, like: approve all / approve 1–4, 6 / deny 5 / 7 edit: … / ❓ answers: 2 = yes. I'll submit everything right after."
+End with the reply format, e.g.: "Reply once, like: approve all / approve 1–4, 6 / deny 5 / 7 edit: … / ❓ answers: 2 = yes. For each deny, add how long: deny 5 now (skip it this time), deny 5 brief (never show this brief again), or deny 5 brand (never pitch this brand again). I'll submit everything right after."
 
 Then wait for their ONE reply. Treat anything they don't mention as not approved (don't submit it). Only message again if a submission fails, a photo upload is needed, or their reply is unclear; batch those into one message too.
 
 **F. Submit everything they approved**
 - **Cohley:** open the form, fill the pitch in "Introduce yourself and explain how you will accomplish the brief requirements" (form_input), choose the concept (radio inputs named concept-*; if only one, select it), answer extra questions, paste the sample link into "link to your post" with form_input and make sure Cohley accepts it (if it says the link has no displayable image, try another library link for that style, then flag it). File uploads: ask the creator to click the upload box in the browser pane themselves (batch these asks into one message). Whitelisting pop-up "Do you agree to grant permission to whitelist content": answer per their Creator File and what they approved. ALWAYS check the terms box. Submit with the "Apply to Brief" button at the bottom of the visible form. Success = URL becomes /campaign/<id>/chat and the page says "Congratulations"; if not, read the red errors, fix, retry. Then, if their Settings include a Cohley portfolio message, post it as its own chat message so the link is clickable.
 - **Insense:** open the listing, click "Apply". Profile dropdown: click the arrow at the right of the field and choose their preferred profile, falling back in their stated order. Click "Price" and TYPE the offer. Click "Why are you a good fit" and TYPE the pitch (real clicks and typing; javascript value-setting does not register on Insense). Special questions: Yes/No dropdowns (click field, click option) or text boxes (click and type). Acknowledgement checkbox checked (always agree). Click the big "Apply" at the bottom. Success = pop-up "<Brand> received your application!", click "Got it". If "Please answer all questions" appears, fix and retry.
-- **Denied items:** do nothing on the site. Add them to their declined History so you never pitch them again.
+- **Denied items:** do nothing on the site. Every denial is one of three kinds:
+  - **Just for now:** skip it this run only. Don't record it anywhere; it can show up again in a later run.
+  - **This brief forever:** add the brief to their declined History and never pitch it again.
+  - **This brand forever:** add the brand to their declined History and never pitch anything from that brand again.
+  If any denial in their reply doesn't say which kind, ask ONCE, in the same message as any other follow-up questions (never a separate message just for this), listing those items together: "For the ones you denied (#4, #7): just for now, this brief forever, or this brand forever?" Don't hold up submitting the approved items while you wait. If they don't answer, treat it as just for now. Only forever denials go into their declined History (and into any "Creator File" update list).
 - **New samples:** when the creator sends a sample link for a ❓, save it to their Content Library with a short note on what it's best for.
 
 **C. Final summary (short)**
@@ -533,7 +537,7 @@ Say: "Let's do your first run together so you can see how it works."
 
 Run a real scan with their settings. While you work, explain:
 - When the pitch message is ready: "Here's your first batch of pitches. Each one shows the brand, the pay, the campaign type and the pitch I wrote. A ❓ means I need something only you know."
-- How to reply: "Reply once with everything, like: approve 1–3, deny 4, 5 edit: make it shorter, ❓ 2 = yes. Anything you don't mention, I skip."
+- How to reply: "Reply once with everything, like: approve 1–3, deny 4 now, 5 edit: make it shorter, ❓ 2 = yes. When you deny something, tell me how long: 'now' skips it this time, 'brief' means never show me that brief again, and 'brand' means never pitch that brand again. Anything you don't mention, I skip."
 - After submitting: "Here's your summary. It shows what I submitted, which follow-ups went out, and anything that still needs you. You'll get one of these after every run."
 
 #### 14. Usage heads-up
