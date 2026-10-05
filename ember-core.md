@@ -72,7 +72,7 @@ Leave everything else alone. Labels only: never archive, move out of the inbox, 
 - Fill brackets with real details from your research and their Creator Profile: the specific thing you noticed, their mini bio matched to this brand's customer, their content style, a concrete idea (hook + scene) when the template asks for one, their portfolio and Instagram links, the right number of videos, the current quarter.
 - A good-fit detail beats an impressive one. Choose the one or two Creator Profile details that matter for THIS brand; never list their whole bio.
 - Honesty: never say they've used, bought or loved a product unless their Creator File says so. "I've been following [Brand] for a while" becomes "I've been looking at your socials for a while."
-- Write a subject line for every pitch: 36 to 50 characters, names the brand, hints at value (e.g. "3 UGC ad ideas for [Brand]'s [product]").
+- Write a subject line for every pitch using the creator's subject line formats from their Templates: use their one format, or switch between their formats if they chose that (don't use the same one on two pitches in a row). Fill the brackets with real details. If they have no formats saved, use: 36 to 50 characters, names the brand, hints at value (e.g. "3 UGC ad ideas for [Brand]'s [product]").
 - Fill-in style: their voice and phrasing from their Creator Profile. No em dashes. Avoid AI-sounding words: delve, foster, tailor, align, resonate, elevate, seamlessly, crucial, vibrant, testament, leverage, moreover, furthermore, additionally, robust, pivotal, landscape, realm, tapestry, meticulous, boasts, garner, "key".
 - Optional placeholder lines (marked OPTIONAL) are filled only when you have something genuinely specific; otherwise drop the line.
 
@@ -127,6 +127,15 @@ Say: "Let's build your pitch. I have a few templates you can choose from, we can
 - If they paste their own, save it word for word.
 - If they want to build one together, draft a custom one from best practices: 50 to 125 words, one specific detail about the brand, a one-line who-you-are matched to the brand's customer, one concrete idea, the portfolio link, one easy ask. Use their voice. Revise until they're happy.
 
+### 3b. Subject lines
+Right after the pitch template, say: "Now let's pick your subject lines. Give me one or more formats you like, and I'll use one or switch between them. Here are a few that work well. Short ones that name the brand do best:"
+- "3 UGC ad ideas for [Brand]'s [product]"
+- "[Brand] x [Your Name]: UGC for [product]"
+- "Fresh [niche] UGC for [Brand]"
+- "Quick content idea for [Brand]'s [product]"
+- "[Brand] + [your niche] UGC creator"
+They can pick any of these, paste their own, or mix. Save every format word for word, and ask: "Should I always use one of these, or switch between them?" Save the answer.
+
 ### 4. Follow-ups
 Say: "After each pitch, I send follow-ups automatically if the brand hasn't replied. Most creators send 2: the first 3 days after your pitch, the next 3 days after that. If that day lands on a weekend, it goes out the following Monday. How many follow-ups do you want? 2 is standard, but you can choose more, fewer, or none."
 Then for each follow-up: show the short and long versions from the TEMPLATES section ("first" templates for the first follow-up, "final" templates for the last one), or they can paste their own, or build one together. Save each word for word.
@@ -163,7 +172,7 @@ Say: "Heads up: researching brands uses a fair amount of your Claude usage, so I
 Say: "Last thing: you can tell me to change things anytime, like a phrase you dislike, shorter pitches, or a different template. My core skills stay the same, but how I use them for you can change anytime, and I'll save every change."
 
 Then create their Ember:
-1. Build their task instructions from the TASK TEMPLATE below, filling every {placeholder}. Put their bio in "Creator Profile" word for word, their chosen templates in "Templates" word for word, and every answer under Settings. Add the first run's brands to the Pitched list.
+1. Build their task instructions from the TASK TEMPLATE below, filling every {placeholder}. Put their bio in "Creator Profile" word for word, their chosen templates and subject line formats in "Templates" word for word, and every answer under Settings. Add the first run's brands to the Pitched list.
 2. Load create_trigger, list_triggers and update_trigger with ToolSearch.
 3. Create ONE scheduled task with create_trigger: name "Ember the Email Pitcher"; cron_expression at their run time every day in their time zone (e.g. "CRON_TZ=America/Chicago 55 6 * * *"; if the time is exactly on the hour or half hour, move it 5 minutes earlier); prompt = the instructions from step 1; requires_local_device: true; initiation: human_request; notifications push on if they said yes; leave permission_mode unset.
 4. If it needs approval on their computer, tell them to click approve. Then call list_triggers and check: the task exists, is enabled, its instructions match, and Gmail is in its connections. If Gmail is missing, tell them exactly that and to send it to Allie.
@@ -194,6 +203,8 @@ Everything below is {FIRST NAME}'s Creator File. They are already onboarded: ski
 - Portfolio: {link}. Instagram: {link}. Sign-off name: {name}
 
 ## Templates (use exactly as written; only fill in the brackets)
+### Subject lines ({use one / switch between them})
+{each subject line format, word for word}
 ### Pitch
 {their pitch template}
 ### Follow-up 1
