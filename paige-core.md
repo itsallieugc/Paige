@@ -167,6 +167,7 @@ This is what makes Paige's pitches land jobs instead of sounding like any other 
 - **Never frame what they'll make as "a review"** (sounds boring). Use a problem-to-solution testimonial or a specific scenario.
 - **Never promise to call out a sale or promo early in the video.** It sounds forced, and UGC should never sound like an ad.
 - **Never describe their home or things in it as dirty, worn or gross.**
+- **Every "her", "him" or "them" must point to someone already named.** Name the person first ("the busy mom who...", "a fitness mom who...") before saying "her". When using a creator's signature line that has a pronoun in it (e.g. "Something that will make her stop scrolling and think wait… this is me"), first say who "her" is in the pitch, or swap "her" for that person ("make a busy mom stop scrolling..."). Reread every pitch once for this before it goes in the approval message.
 - **Never cite how many brands they've worked with** unless a brief asks for it.
 - **Before/after edits:** follow their Creator File. If it's not stated, put the question as a ❓.
 - **Their exact words win.** When they give exact wording, use it verbatim.
