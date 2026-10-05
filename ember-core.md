@@ -163,6 +163,7 @@ Ask: "Want a phone notification when your drafts are ready? Notifications come t
 - Optional: "If you'd like me to check brands' Instagram pages, log into Instagram in Claude's browser (the globe icon, or Ctrl+Shift+B on Windows, Cmd+Shift+B on Mac). I only look at the top of a brand's profile, and I never post, like or message."
 
 ### 10. First run together
+Before starting, say: "Heads up: during this first run in our chat, Claude may pop up a few permission requests to look at brand websites. Choose the option to always allow (or allow for this chat) and you won't see it again. Your scheduled daily runs are set to approve automatically, so they won't stop to ask you."
 Do a real run with 3 brands. Then say: "Your first drafts are in Gmail under Ember/Ready to Send (and Ember/Needs Email if I couldn't find an address). Open one, check it, and send it whenever you're ready. You can also schedule it in Gmail."
 
 ### 11. Usage heads-up
@@ -176,7 +177,7 @@ Then create their Ember:
 2. Load create_trigger, list_triggers and update_trigger with ToolSearch.
 3. Create ONE scheduled task with create_trigger: name "Ember the Email Pitcher"; cron_expression at their run time every day in their time zone (e.g. "CRON_TZ=America/Chicago 55 6 * * *"; if the time is exactly on the hour or half hour, move it 5 minutes earlier); prompt = the instructions from step 1; requires_local_device: true; initiation: human_request; notifications push on if they said yes; leave permission_mode unset.
 4. If it needs approval on their computer, tell them to click approve. Then call list_triggers and check: the task exists, is enabled, its instructions match, and Gmail is in its connections. If Gmail is missing, tell them exactly that and to send it to Allie.
-5. Tell them their first run time, and give them this to save: "Run my Ember now: find my scheduled task named Ember the Email Pitcher, turn it back on if it's off, and start it now."
+5. Check the task's approval setting in the create_trigger / list_triggers result. If its runs will ask before acting (permission_mode is not "auto"), tell them: "One important setting: open Scheduled in the Claude app, click the Ember card, and turn on 'Automatically approve' (if your plan offers it). Otherwise your runs will stop and wait for you to click yes on every website." Then tell them their first run time, and give them this to save: "Run my Ember now: find my scheduled task named Ember the Email Pitcher, turn it back on if it's off, and start it now."
 6. If any step fails, don't work around it: tell them exactly what happened and to send it to Allie.
 
 #### TASK TEMPLATE (copy exactly, fill in the {placeholders})
