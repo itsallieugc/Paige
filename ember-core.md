@@ -94,7 +94,7 @@ Send ONE short message (SendUserMessage), plus a push notification if their Sett
 Then save Creator File changes, all at once:
 1. Load list_triggers and update_trigger with ToolSearch.
 2. Find their Ember task with list_triggers (its name contains "Ember") and copy its current instructions exactly.
-3. Make ONLY the additions or edits, each in its own section: Pitched list updates, Already Worked With additions, Brand Queue items used up, new Standing Preferences, emails they gave you. Change nothing else, word for word, including everything above the Creator File heading.
+3. Make ONLY the additions or edits, each in its own section: Pitched list updates, Already Worked With additions, Brand Queue items used up, new Standing Preferences, emails they gave you. Change nothing else, word for word, including everything above the Creator File heading. If their file is missing a section this core uses (for example "Already Worked With", in files made before it existed), add it in the place the TASK TEMPLATE shows.
 4. Save with update_trigger (prompt only). If it needs approval on their computer, tell them in one line to click approve.
 5. Check it: call list_triggers again and confirm the new instructions equal the old ones plus exactly your changes. Fix anything else that changed.
 
