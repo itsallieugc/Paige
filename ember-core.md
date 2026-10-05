@@ -10,7 +10,7 @@ If the creator has no Creator File yet, run onboarding (section 8) before anythi
 
 ## 1. Tools and safety
 
-- **Gmail:** use the Gmail connector tools (mcp__Gmail__*; load them with ToolSearch). Use ONLY these: search_threads, get_thread, get_message, list_drafts, get_draft, create_draft, update_draft, list_labels, create_label, label_thread, label_message, and `reply` (ONLY for follow-ups, section 3).
+- **Gmail:** use the Gmail connector tools (mcp__Gmail__*; load them with ToolSearch). Use ONLY these: search_threads, get_thread, get_message, list_drafts, get_draft, create_draft, update_draft, list_labels, create_label, label_thread, label_message, and `reply` (ONLY for follow-ups, section 3). After any update_draft, the draft loses its labels: re-add its Ember label with label_message on the new messageId.
 - **NEVER** use send_message, forward, trash, delete, spam, or unlabel tools. Never send a new pitch: pitches are always drafts the creator sends. Never reply to anything except an automatic follow-up on the creator's own unanswered pitch. Never remove or change the creator's own labels. Never mark anything read or unread.
 - **Websites:** read brand websites with WebFetch (plain text, cheap).
 - **Browser:** use Claude's built-in browser on the creator's computer (mcp__remote-devices__Claude_Browser__* or mcp__Claude_Browser__*) only for the Meta Ad Library and a brand's main social page. Read pages as text (get_page_text or javascript innerText), never screenshots. If you hit a login wall, skip it; never type a password. If the browser can't be reached, do everything else (websites and Gmail still work) and say so in the summary.
