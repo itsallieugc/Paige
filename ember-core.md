@@ -177,7 +177,7 @@ Ask: "Want a phone notification when your drafts are ready? Notifications come t
 
 ### 10. First run together
 Before starting, say: "Heads up: during this first run in our chat, Claude may pop up a few permission requests to look at brand websites. Choose the option to always allow (or allow for this chat) and you won't see it again. Your scheduled daily runs are set to approve automatically, so they won't stop to ask you."
-Do a real run with 3 brands. Then say: "Your first drafts are in Gmail under Ember/Ready to Send (and Ember/Needs Email if I couldn't find an address). Open one, check it, and send it whenever you're ready. You can also schedule it in Gmail."
+Do a real run with 3 brands. Then say: "Your first drafts are in Gmail under Ember/Ready to Send (and Ember/Needs Email if I couldn't find an address). Open one, check it, and send it whenever you're ready. You can also schedule it in Gmail." Then say: "One honest heads up: researching brands, writing pitches and organizing your inbox are where I shine. Finding the exact best contact email is not. I only use addresses I can actually find (often a general support or hello@ inbox) and never guess. For brands you really want, find a better contact yourself, like DMing the brand on Instagram or TikTok to ask who handles creator partnerships, or finding their partnerships or marketing person on LinkedIn, then swap it into the draft before you send."
 
 ### 11. Usage heads-up
 Say: "Heads up: researching brands uses a fair amount of your Claude usage, so I stick to a set number of brands a day and keep my messages short. If you hit your limit, I can't run until it resets."
