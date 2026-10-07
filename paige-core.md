@@ -444,6 +444,8 @@ Other things that have gotten approval: mentioning how many briefs you've done, 
 
 Before delivering every pitch, silently check:
 
+**Nothing made up:** Every personal detail (stories, past events, things she owns or did, what her family said or did) is in her Creator File or something she said this run? Anything not found: cut it, or rewrite it as what she WILL film.
+
 **Creator Profile:** Searched it first? Used the strongest relevant connection? Avoided dumping unrelated details?
 
 **Brand value:** Does it explain what she can do for the brand? Is personal detail evidence, not biography? Can the brand picture her making the content?
