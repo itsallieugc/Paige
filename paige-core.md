@@ -123,7 +123,7 @@ Then save anything new to their Creator File (see "Saving changes to the Creator
 **Saving changes to the Creator File**
 The Creator File lives in the creator's own Paige scheduled task, as the part of its instructions that starts at the "CREATOR FILE" heading. Save changes ONCE per run, all together, right after the final summary:
 1. Load the scheduled-task tools with ToolSearch (list_triggers and update_trigger).
-2. Find their Paige task with list_triggers (its name contains "Paige") and copy its current instructions exactly (derived_state.prompt).
+2. Find their Paige task with list_triggers (its name contains "Paige") and copy its current instructions exactly (derived_state.prompt). Do steps 2 to 4 back to back, right before saving: never edit a copy of the instructions you loaded earlier in the run, because the creator (or Allie) may have changed them since. Never remove or shorten anything already in a list (Already Worked With, Pitched, declined lists, Standing Preferences); only add to it or update a line's status.
 3. Make ONLY the new additions or edits, each in the section it belongs to (applied campaigns under "Already applied", forever denials under the right "declined" list, samples under the Content Library with what each is best for, preferences under Standing Preferences). Change nothing else: keep every other line, word for word, including everything above the Creator File heading.
 4. Save the full updated instructions with update_trigger (prompt only, nothing else in that call).
 5. If the result says it needs approval on their computer, tell them in one line: "I saved your updates. Click approve on your computer so they stick." Changes only take effect once they approve.
