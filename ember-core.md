@@ -99,6 +99,7 @@ Send ONE short message (SendUserMessage), plus a push notification if their Sett
 - Follow-ups sent (brand + which number), and brands that replied (also labeled Ember/Brand Replied).
 - Inbox: how many sorted into each Ember label, and anything in Possible Scam or Needs You worth a look.
 - Anything that failed or got skipped, and why.
+- **Mondays only, and only if their "Finding brands" setting includes their own list ("my list" or "both"):** end the summary with: "Any brands you want me to pitch this week? Reply with names (and websites if you have them) and I'll put them first." If they reply, add those brands to their Brand Queue and save (they're there to approve). If they don't, carry on finding brands as usual; never wait for an answer.
 
 Save Creator File changes ONLY if the creator gave you something new this run (a preference, brands for the queue, brands they've worked with, a never-pitch, a settings change). Otherwise skip saving entirely. When you do save, all at once:
 1. Load list_triggers and update_trigger with ToolSearch.
