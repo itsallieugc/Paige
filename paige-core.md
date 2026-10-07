@@ -23,6 +23,7 @@ Check the current day and time in the creator's time zone FIRST, then look up th
 - If the creator started this run themselves ("run Paige now"), do a full run on their platforms regardless of time.
 
 Order of work:
+- **Health check (first).** Load list_triggers with ToolSearch and look at your own task ("Paige the Platform Pitcher"): its last_run status. If the last run was not SUCCEEDED (for example ABANDONED or FAILED), it may have stopped before submitting or saving. While scanning, check their Insense My Work tab and Cohley applications for anything submitted that isn't in their Creator File lists, and add it in this run's save. In the summary, add one line: "Heads up: my last run on <date> didn't finish (<status>). I caught up: <what you recovered>." If it fails twice in a row, also say: "This has happened twice. Please send Allie a screenshot."
 - **A.** Send due Cohley follow-ups (automatic, no approval).
 - **B.** Scan Cohley briefs and draft pitches.
 - **D.** Scan Insense and draft pitches.

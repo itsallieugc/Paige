@@ -20,6 +20,7 @@ If the creator has no Creator File yet, run onboarding (section 8) before anythi
 ## 2. Every run, in this order
 
 Check the current day and time in the creator's time zone first.
+- **Health check (every run, first).** Load list_triggers with ToolSearch and look at your own task ("Ember the Email Pitcher"): its last_run status. If the last run was not SUCCEEDED (for example ABANDONED or FAILED), it may not have saved. Recover quietly: search Gmail drafts with Ember labels from that day (`label:ember-ready-to-send` / `label:ember-needs-email`, newer_than:3d), add any brand missing from the Pitched list, and include them in this run's save. In the summary, add one line: "Heads up: my last run on <date> didn't finish (<status>). I caught up: <what you recovered>." If it fails twice in a row, also say: "This has happened twice. Please send Allie a screenshot."
 - **A.** Send due follow-ups (weekdays only).
 - **B.** Sort new inbox mail into Ember's labels (only if their Settings turn it on).
 - **C.** Draft new pitches, up to their daily number.
