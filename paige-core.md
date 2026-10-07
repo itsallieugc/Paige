@@ -81,11 +81,12 @@ Then confirm it appears in the chat.
 
 ## 5. D. Insense scan (draft only)
 
-1. Open https://app.insense.pro/dashboard in its own tab. Click "Payment Terms" and tick "Paid" (unless their Settings say they want gifted or seeding campaigns too). Click "Sort by", choose Campaign budget "High to low". Scroll ALL the way down to the cutoff: keep scrolling (the list loads more as you go) until you reach a listing whose top of range is below their Insense per-video minimum, or the list truly ends. Never stop early because the list is long or slow: if new listings stop loading, wait a few seconds and scroll again, at least 3 times, before deciding you have reached the end. Brands often post many separate listings (one brand can have 10 to 50), so check every listing, not one per brand. Before moving on, confirm you really reached the cutoff: the last listing you saw is under their minimum. In the summary (C), say how many Insense listings you checked and the budget of the last one (e.g. "Checked 214 paid Insense listings, down to $140"). If you truly cannot finish the list this run, say exactly where you stopped (the budget you reached) and start from there next run, so nothing is silently skipped.
+1. Open https://app.insense.pro/dashboard in its own tab. Set Insense's own filters FIRST, exactly as their "Insense filters" setting says (categories, campaign types, minimum price, video and/or photo, product shipment). If they have no "Insense filters" setting (older files), click "Payment Terms" and tick "Paid" instead (unless their Settings say they want gifted or seeding campaigns too). For the minimum price filter, use their Insense per-video minimum. Then click "Sort by" and choose Campaign budget "High to low". If a filter they chose isn't on the page anymore, skip just that filter and mention it in the summary. Scroll ALL the way down to the cutoff: keep scrolling (the list loads more as you go) until you reach a listing whose top of range is below their Insense per-video minimum, or the list truly ends. Never stop early because the list is long or slow: if new listings stop loading, wait a few seconds and scroll again, at least 3 times, before deciding you have reached the end. Brands often post many separate listings (one brand can have 10 to 50), so check every listing, not one per brand. Before moving on, confirm you really reached the cutoff: the last listing you saw is under their minimum. In the summary (C), say how many Insense listings you checked and the budget of the last one (e.g. "Checked 214 paid Insense listings, down to $140"). If you truly cannot finish the list this run, say exactly where you stopped (the budget you reached) and start from there next run, so nothing is silently skipped.
 2. Skip: anything their pay exceptions rule out (gifted, seeding, affiliate-only, and so on), anything whose offer price (step 4) divided by the number of VIDEOS is under their per-video minimum, anything on their never/can't-do list, anything in their declined History, and campaigns already applied to (My Work tab https://app.insense.pro/campaigns).
 3. For each candidate, click its title (opens /listings/<uuid>), click "Read more", read product, deliverables (count videos and photos), whether posting is required, and Partnership Ads duration. Click "Apply" only to READ the special questions, then leave without submitting.
 4. Price: use their Insense offer rule from Settings. Never offer below their per-video minimum.
 5. Prepare everything like B4 (section 7 applies): type, pitch (ending with their portfolio line if their Settings say so), price, per-video amount, which Insense profile to use (their preferred order from the Creator File), and answers to special questions (their saved Insense common answers; anything new and not in their file is a ❓).
+6. **"You might care" pass (only if their Settings have an "Under-minimum OK for" line).** Lower the minimum price filter to their "you might care" floor, keep every other filter, sort by budget high to low, and scroll from their regular minimum down to that floor (same no-early-stop rule as step 1). Pick ONLY listings that clearly match a brand, product or cause on that line. Prepare them like step 5, offering their offer rule's price (never below the floor). These go in their own short section of E, never mixed into the main list.
 
 ## 6. E, F, C. Approval, submitting, summary
 
@@ -96,6 +97,8 @@ Send ONE message (SendUserMessage) covering all platforms, numbered straight thr
 - The pitch (full text)
 - Pre-filled answers and the sample chosen (name the library category)
 - ❓ only if something is truly needed from them
+
+If the "you might care" pass found anything, add a short section after the main list titled "Under your minimum, but you might care", numbered on from the main list, each with the same details plus one line on why it matches what they care about. These are never submitted unless approved like any other item.
 
 End with the reply format, e.g.: "Reply once, like: approve all / approve 1, 2, 3 / deny now 4 / deny brief 5 / deny brand 6 / edit 7: make it shorter / ❓ 8 = yes. 'deny now' skips it this time, 'deny brief' means never show that brief again, 'deny brand' means never pitch that brand again. I'll submit everything right after."
 
@@ -491,12 +494,24 @@ Get one answer for Cohley and one for Insense, for whichever platforms they chos
 
 Then ask: "Any exceptions? For example, any price if it's health-related, photo-only briefs at $50 and up, or no gifted-only or seeding campaigns."
 
+If they use Insense, also ask: "Are there brands, products or causes you'd take less money for, because you need them or care about them? For example: kids' clothing, mental health, veteran charities, pet rescue. If so, what's the lowest you'd go for those? I'll show them to you in a separate short list so you never miss one, and I only apply if you say yes." Save the list and the floor.
+
 #### 6. Insense offer rule
 Ask this only if they use Insense.
 
 Ask: "On Insense, brands show a budget range, and I have to pick what price to offer. What's your rule? Here's an example: offer the top of the range when it's $400 or less, top minus $25 from $401 to $600, and top minus $50 over $600. Or keep it simple, like 'always offer the top' or 'always offer my standard rate.'"
 
 Rule for you: never offer below their per-video minimum from step 5.
+
+#### 6b. Insense filters
+Ask this only if they use Insense.
+
+Say: "Insense has over a thousand open campaigns, so I use its filters to find the right ones faster (and use less of your Claude usage). Tell me what you want for each:"
+- "Categories: all categories, or just certain ones? (For example: Beauty, Health & Wellness, Food & Drink, Home, Kids, Pets.)"
+- "Campaign types: UGC, influencer post (posting on your account), Meta ads, TikTok ads, TikTok Shop, affiliate, product seeding. Pick any."
+- "Video, photo, or both?"
+- "Product shipment: shipped to you, no shipment, reimbursement (you buy it and they pay you back). Pick any."
+I'll set the minimum price filter to your Insense minimum from step 5. Save their answers exactly.
 
 #### 7. Insense common questions
 Ask this only if they use Insense.
@@ -601,6 +616,8 @@ Everything below is {FIRST NAME}'s Creator File. They are already onboarded: ski
 - If they start a run themselves ("run Paige now"), do a full run on their platforms regardless of time.
 - Cohley minimum: {amount} per video. Exceptions: {exceptions or "none"}
 - Insense minimum: {amount} per video. Exceptions: {exceptions or "none"}
+- Insense filters: categories {all / list}; campaign types {list}; content {video / photo / both}; product shipment {list}. Minimum price filter = their Insense per-video minimum.
+- Under-minimum OK for: {brands, products or causes they care about, or "none"}; lowest they'd go: {floor}
 - Insense offer rule: {their rule}
 - Insense profiles, in order: {handles}
 - Insense common answers: flat-rate plus affiliate/commission interest = {answer}; Meta ads from their profile = {answer}; Facebook page connected to Instagram with real photo and name = {answer}
