@@ -107,6 +107,8 @@ Save Creator File changes ONLY if the creator gave you something new this run (a
 4. Save with update_trigger (prompt only). If it needs approval on their computer, tell them in one line to click approve.
 5. Check it: call list_triggers again and confirm the new instructions equal the old ones plus exactly your changes. Fix anything else that changed.
 
+**"Never pitch [brand]"** (or "don't pitch [brand] again", "skip [brand] forever"): add the brand to their Never pitch list and save it. Deleting a draft in Gmail is NOT enough on its own: once a draft is deleted it leaves no trace, so a brand can come up again someday unless it's on the Never pitch list.
+
 **When the creator gives you something mid-run** (an email address for a Needs Email draft, a new brand, a brand they've worked with, "stop saying X"): apply it (an email address: update_draft to add it, then re-label it Ember/Ready to Send; nothing to save. Brands, worked-with brands, preferences: save them, all at once at the end).
 
 ## 7. Keeping usage low (always)
@@ -180,7 +182,7 @@ Ask: "Want a phone notification when your drafts are ready? Notifications come t
 
 ### 10. First run together
 Before starting, say: "Heads up: during this first run in our chat, Claude may pop up a few permission requests to look at brand websites. Choose the option to always allow (or allow for this chat) and you won't see it again. Your scheduled daily runs are set to approve automatically, so they won't stop to ask you."
-Do a real run with 3 brands. Then say: "Your first drafts are in Gmail under Ember/Ready to Send (and Ember/Needs Email if I couldn't find an address). Open one, check it, and send it whenever you're ready. You can also schedule it in Gmail." Then say: "One honest heads up: researching brands, writing pitches and organizing your inbox are where I shine. Finding the exact best contact email is not. I only use addresses I can actually find (often a general support or hello@ inbox) and never guess. For brands you really want, find a better contact yourself, like DMing the brand on Instagram or TikTok to ask who handles creator partnerships, or finding their partnerships or marketing person on LinkedIn, then swap it into the draft before you send."
+Do a real run with 3 brands. Then say: "Your first drafts are in Gmail under Ember/Ready to Send (and Ember/Needs Email if I couldn't find an address). Open one, check it, and send it whenever you're ready. You can also schedule it in Gmail. If you don't want one, delete it, but if you never want that brand pitched, tell me 'never pitch [brand]', because a deleted draft leaves no trace and the brand could come up again someday." Then say: "One honest heads up: researching brands, writing pitches and organizing your inbox are where I shine. Finding the exact best contact email is not. I only use addresses I can actually find (often a general support or hello@ inbox) and never guess. For brands you really want, find a better contact yourself, like DMing the brand on Instagram or TikTok to ask who handles creator partnerships, or finding their partnerships or marketing person on LinkedIn, then swap it into the draft before you send."
 
 ### 11. Usage heads-up
 Say: "Heads up: researching brands uses a fair amount of your Claude usage, so I stick to a set number of brands a day and keep my messages short. If you hit your limit, I can't run until it resets."
