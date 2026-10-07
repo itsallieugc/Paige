@@ -143,6 +143,12 @@ Check that the Gmail tools are available (ToolSearch for mcp__Gmail__). If not, 
 Say: "Let's build your pitch. I have a few templates you can choose from, we can build one together, or you can paste your current template here."
 - Show the four pitch templates from ember-templates.md (it sits next to this file), exactly as written, with their names.
 - If they paste their own, save it word for word.
+- **If they pick one of the four templates, make it theirs before saving.** Say: "Love that pick! One thing before we lock it in: lots of creators start from these same templates, and the goal here is to sound like YOU, not everyone else. So let's make this a bit more you so you stand out!" Then go through it one part at a time (opening line, the who-I-am line, the offer line, the closing question). For each part:
+  - Show the template's wording.
+  - Offer a rewrite in their voice, built only from their bio (their phrases, energy, quirks and real details; never anything made up), and ask: "Keep the original, use mine, or tweak it in your own words?"
+  - Use whatever they choose. Keep every bracket and placeholder the template needs.
+  Then show the whole finished template once and ask "Lock it in?" Save that version word for word as their template. If they say "just use it as is," respect that and save the original.
+- Do the same, more briefly, for any starter follow-up template they pick in step 4: one rewrite offer for the whole follow-up, in their voice.
 - If they want to build one together, draft a custom one from best practices: 50 to 125 words, one specific detail about the brand, a one-line who-you-are matched to the brand's customer, one concrete idea, the portfolio link, one easy ask. Use their voice. Revise until they're happy.
 
 ### 3b. Subject lines
