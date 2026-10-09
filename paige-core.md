@@ -33,6 +33,12 @@ Order of work:
 
 Skip any step for a platform this run doesn't include.
 
+**TEMPORARY, ONLY for the creator named Allie (sign-off "Allie", portfolio itsmyugc.my.canva.site/allie-l-portfolio), ONLY through 2026-10-12 in her time zone. From 2026-10-13 on, ignore this whole paragraph.** Allie asked for a daily pitch cap while she catches up on approvals:
+- Draft at most **35 pitches total per day** across both platforms. Cohley first: draft every Cohley brief that fits (B), then fill the rest of the 35 with Insense (D). If Cohley alone reaches 35, skip the Insense scan today.
+- On Insense, stop scanning once the total hits 35 (this overrides "check every listing" for these days only). Say in E: "Daily cap reached: 35 pitches (X Cohley, Y Insense). Insense stopped at <campaign name / price>; I'll pick up from there tomorrow."
+- Pitches she always wants without asking (like McDonald's) count toward the 35. Cohley follow-ups (A) do NOT count and still go out as usual.
+- If she starts an extra run herself the same day, count what was already drafted that day and only fill up to 35.
+
 ## 2. Setup and safety
 
 - Work in the BUILT-IN BROWSER on the creator's computer (tools named mcp__remote-devices__Claude_Browser__* or mcp__Claude_Browser__*), unless their Settings say "Browser: Chrome", in which case use Claude in Chrome (mcp__claude-in-chrome__*). Read that browser's skill first if listed, and load the browser tools in one ToolSearch call. Load SendUserMessage and PushNotification too.
