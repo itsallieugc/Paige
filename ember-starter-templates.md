@@ -100,7 +100,7 @@ Hi {First Name} and {Brand Name} Team,
 
 I know that planning and executing content for {Brand Name} can be time-consuming, and the inbox can get crazy, let me make this easy and fast!
 
-I'm following up on my last email and checking if that's a market you want to tap into? Here's (portfolio link here) for consideration too.
+I'm following up on my last email and checking if that's a market you want to tap into?
 
 Thank you!
 (Name)
@@ -124,8 +124,6 @@ Hi {First Name} and {Brand Name} Team,
 
 I know that you get tons of emails like this every day at {Brand Name}, but I think this marketing idea could be gold. Do you want to give it a try?
 
-Here's (portfolio link) for consideration too.
-
 Thank you!
 
 ## FINAL FOLLOW-UP: LONG
@@ -133,6 +131,5 @@ Thank you!
 Hi [Name/Team],
 I know (Q4… enter current quarter) planning gets crazy busy, so I'll keep this short!
 I'd love to help show {audience name ex: moms} how easily [Brand Name] fits into a real-life daily routine and specifically the problems it solves. No matter which content style you're leaning towards, I can turn high quality content around quickly for your team.
-If you're finalizing your creator roster for the season, you can take a quick look at my work here: (portfolio)
 Looking forward to connecting soon!
 Sincerely,
