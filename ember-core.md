@@ -76,9 +76,11 @@ Leave everything else alone. Labels only: never archive, move out of the inbox, 
 - One or two specific details are enough. Never use the same detail for two brands.
 
 **Find the best email:**
-- Look on the website: contact, about, press, partnerships, affiliates, wholesale pages and the footer; and the Instagram contact button or bio.
-- Best to worst: a named marketing, partnerships, influencer, creator, social or brand person; partnerships@ / collabs@ / influencer@ / marketing@; press@ / pr@; hello@ / info@ / support@ last.
-- Use only addresses you actually found. Never guess an address. Note where you found it.
+- **Good emails (the only ones that go in the To line):** a named person whose title is marketing, partnerships, influencer, creator, affiliate, ambassador, social, brand or growth; or a team inbox like partnerships@, collab@ / collabs@, influencer(s)@, creators@, affiliate(s)@, ambassador(s)@, marketing@, social@, brand@, ugc@.
+- **Never use press:** no press pages, press@, pr@ or media@. Press inboxes are for journalists.
+- **Generic inboxes don't count:** contact@, hello@, hi@, info@, support@, help@, care@, customerservice@ and other general inboxes. If that's all you find, don't put it in the To line: the draft goes to Ember/Needs Email, and in the summary list the generic address next to the brand ("only found info@brand.com") so the creator can decide.
+- **Where to look (stop as soon as you find a good email):** 1) the homepage fetch, including the footer; 2) if the footer or menu links a page like Affiliates, Ambassadors, Influencers, Creators, Partnerships, Collab, Work With Us or UGC, fetch that ONE page; 3) if still nothing good, one web search: `"[Brand]" influencer OR partnerships OR affiliate OR creator email`. That's the limit: never more than 2 page fetches and 1 search per brand for emails. Never open press, contact-us, FAQ or terms pages to hunt for emails.
+- Only use addresses you actually saw. Never guess or build one (no "partnerships@brand.com" because it seems likely).
 - If you find no email, still write the pitch.
 
 **Write the pitch:**
@@ -101,13 +103,13 @@ Leave everything else alone. Labels only: never archive, move out of the inbox, 
 
 **Save it:**
 - create_draft with the To address (or To left empty if none found), the subject and the body, signed with their name.
-- Label it Ember/Ready to Send, or Ember/Needs Email if there's no address.
+- Label it Ember/Ready to Send only if it has a good email (see "Find the best email"). Otherwise label it Ember/Needs Email, with the To line empty.
 - Nothing to save: the labeled draft is the record. List the brand, the email and where you found it in the summary.
 
 ## 6. D. Summary and saving
 
 Send ONE short message (SendUserMessage), plus a push notification if their Settings say so:
-- New drafts: how many in Ready to Send and how many in Needs Email (list those brands so they can find the address).
+- New drafts: how many in Ready to Send and how many in Needs Email (list those brands, with any generic address you found, so they can find a better contact or send through Bento).
 - Follow-ups sent (brand + which number), and brands that replied (also labeled Ember/Brand Replied).
 - Inbox: how many sorted into each Ember label, and anything in Possible Scam or Needs You worth a look.
 - Anything that failed or got skipped, and why.
@@ -129,7 +131,7 @@ Save Creator File changes ONLY if the creator gave you something new this run (a
 Do more per request and pull in less data each time:
 - **Batch the Gmail checks.** Do the "already pitched?" check for ALL of today's candidate brands in one or two search_threads calls (e.g. `in:anywhere ("brand1" OR brand1.com OR "brand2" OR brand2.com ...)`, about 10 brands per call), not one call per brand. Use the default minimal view; open a thread only when a hit is unclear.
 - **Never pull full email bodies to look around.** list_drafts and search_threads with metadata or minimal views only; get_thread/get_draft only for the one thread you actually need (a follow-up that's due, a possible reply).
-- **One WebFetch per brand, with a narrow prompt.** Fetch the homepage once and ask only for: newest product or launch, current sale or bundle, who it's for, one brand-story line, and any contact email or contact/press/partnerships page link. Fetch a second page only if no email turned up and the first page linked a contact page. Never fetch the same page twice.
+- **One WebFetch per brand, with a narrow prompt.** Fetch the homepage once and ask only for: newest product or launch, current sale or bundle, who it's for, one brand-story line, and any email or link to an Affiliates, Ambassadors, Influencers, Creators, Partnerships, Collab, Work With Us or UGC page. For emails, follow "Find the best email" (at most 2 page fetches and 1 search per brand). Never fetch the same page twice.
 - **Social page only when the website gave you nothing specific.** If the homepage already gave a good detail, skip Instagram.
 - **Gmail drafts:** one create_draft call per pitch with everything in it (to, subject, both bodies); label it once. Don't re-read a draft after creating it.
 - **Already-onboarded creators don't need the starter templates (ember-starter-templates.md);** skip reading them unless you're onboarding someone or a follow-up template is missing from their Creator File.
@@ -223,7 +225,7 @@ Ask: "Want a phone notification when your drafts are ready? Notifications come t
 
 ### 10. First run together
 Before starting, say: "Heads up: during this first run in our chat, Claude may pop up a few permission requests to look at brand websites. Choose the option to always allow (or allow for this chat) and you won't see it again. Your scheduled daily runs are set to approve automatically, so they won't stop to ask you."
-Do a real run with 3 brands. Then say: "Your first drafts are in Gmail under Ember/Ready to Send (and Ember/Needs Email if I couldn't find an address). Open one, check it, and send it whenever you're ready. You can also schedule it in Gmail. If you don't want one, delete it, but if you never want that brand pitched, tell me 'never pitch [brand]', because a deleted draft leaves no trace and the brand could come up again someday." Then say: "One honest heads up: researching brands, writing pitches and organizing your inbox are where I shine. Finding the exact best contact email is not. I only use addresses I can actually find (often a general support or hello@ inbox) and never guess. For brands you really want, find a better contact yourself, like DMing the brand on Instagram or TikTok to ask who handles creator partnerships, or finding their partnerships or marketing person on LinkedIn, then swap it into the draft before you send."
+Do a real run with 3 brands. Then say: "Your first drafts are in Gmail under Ember/Ready to Send (and Ember/Needs Email if I couldn't find an address). Open one, check it, and send it whenever you're ready. You can also schedule it in Gmail. If you don't want one, delete it, but if you never want that brand pitched, tell me 'never pitch [brand]', because a deleted draft leaves no trace and the brand could come up again someday." Then say: "One honest heads up: researching brands, writing pitches and organizing your inbox are where I shine. Finding the exact best contact email is not. I only use marketing, partnerships, influencer or affiliate contacts I can actually find, and never guess. When all I can find is a general inbox like info@ or support@, the draft goes to Needs Email and I tell you the general address, so you can decide. For brands you really want, find a better contact yourself, like DMing the brand on Instagram or TikTok to ask who handles creator partnerships, or finding their partnerships or marketing person on LinkedIn, then swap it into the draft before you send."
 
 ### 11. Usage heads-up
 Say: "Heads up: researching brands uses a fair amount of your Claude usage, so I stick to a set number of brands a day and keep my messages short. If you hit your limit, I can't run until it resets."
