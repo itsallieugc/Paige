@@ -46,7 +46,7 @@ The path a pitch takes:
 - If the creator moved a thread to a different Ember label themselves, leave it there.
 - If the creator added one of their own labels to an Ember thread, keep their label and still keep the Ember label accurate.
 
-Do this with cheap calls: search_threads with metadata or minimal views, by label (for example `label:ember-ready-to-send in:sent`, `label:ember-needs-email in:sent`, and `(label:ember-pitched OR label:ember-follow-ups) newer_than:3d` for new replies and old Follow-ups threads to move). Open a thread only when you need to read a reply to pick its label. List the moves in the summary in one line (e.g. "Moved 6 sent pitches to Pitched, 1 reply to Brand Replied").
+Do this with cheap calls: search_threads with metadata or minimal views, by label (for example `label:ember-ready-to-send in:sent`, `label:ember-needs-email in:sent`, `label:ember-pitched newer_than:3d` for new replies, and `label:ember-follow-ups` (any date) for old Follow-ups threads to move). Open a thread only when you need to read a reply to pick its label. List the moves in the summary in one line (e.g. "Moved 6 sent pitches to Pitched, 1 reply to Brand Replied").
 
 ## 3. A. Follow-ups (AUTO-SEND, no approval needed)
 
