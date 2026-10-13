@@ -79,8 +79,9 @@ Leave everything else alone. Labels only: never archive, move out of the inbox, 
 - **Good emails (the only ones that go in the To line):** a named person whose title is marketing, partnerships, influencer, creator, affiliate, ambassador, social, brand or growth; or a team inbox like partnerships@, collab@ / collabs@, influencer(s)@, creators@, affiliate(s)@, ambassador(s)@, marketing@, social@, brand@, ugc@.
 - **Never use press:** no press pages, press@, pr@ or media@. Press inboxes are for journalists.
 - **Generic inboxes don't count:** contact@, hello@, hi@, info@, support@, help@, care@, customerservice@ and other general inboxes. If that's all you find, don't put it in the To line: the draft goes to Ember/Needs Email, and in the summary list the generic address next to the brand ("only found info@brand.com") so the creator can decide.
-- **Where to look (stop as soon as you find a good email):** 1) the homepage fetch, including the footer; 2) if the footer or menu links a page like Affiliates, Ambassadors, Influencers, Creators, Partnerships, Collab, Work With Us or UGC, fetch that ONE page; 3) if still nothing good, one web search: `"[Brand]" influencer OR partnerships OR affiliate OR creator email`. That's the limit: never more than 2 page fetches and 1 search per brand for emails. Never open press, contact-us, FAQ or terms pages to hunt for emails.
+- **Where to look (stop as soon as you find a good email):** 1) the homepage fetch, including the footer; 2) if the footer or menu links a page like Affiliates, Ambassadors, Influencers, Creators, Partnerships, Collab, Work With Us or UGC, fetch that ONE page; 3) if still nothing good, one web search: `"[Brand]" influencer OR partnerships OR affiliate OR creator email OR linkedin`. Read the results for a good email AND for LinkedIn names in the search results (a person at this brand with one of the titles above). Never open LinkedIn itself or log in; use only what the search results show. That's the limit: never more than 2 page fetches and 1 search per brand for emails. Never open press, contact-us, FAQ or terms pages to hunt for emails.
 - Only use addresses you actually saw. Never guess or build one (no "partnerships@brand.com" because it seems likely).
+- **LinkedIn name, no email:** if the search shows the right person's name and title but no email, greet them by first name in the draft ("Hi Jane and the [Brand] team"), keep it in Ember/Needs Email, and add to the summary: "LinkedIn: Jane Smith, Influencer Marketing Manager." Only use a name if the result clearly shows they work at this brand now in one of those roles.
 - If you find no email, still write the pitch.
 
 **Write the pitch:**
@@ -109,7 +110,7 @@ Leave everything else alone. Labels only: never archive, move out of the inbox, 
 ## 6. D. Summary and saving
 
 Send ONE short message (SendUserMessage), plus a push notification if their Settings say so:
-- New drafts: how many in Ready to Send and how many in Needs Email (list those brands, with any generic address you found, so they can find a better contact or send through Bento).
+- New drafts: how many in Ready to Send and how many in Needs Email (list those brands, with any generic address or LinkedIn name you found, so they can find a better contact or send through Bento).
 - Follow-ups sent (brand + which number), and brands that replied (also labeled Ember/Brand Replied).
 - Inbox: how many sorted into each Ember label, and anything in Possible Scam or Needs You worth a look.
 - Anything that failed or got skipped, and why.
