@@ -155,7 +155,7 @@ Skip a brand if: it's on Never pitch or Already Worked With, the Gmail check sho
 
 ## 6. D. Summary and saving
 
-Send ONE short message (SendUserMessage), plus a push notification if their Settings say so:
+Send ONE short message (SendUserMessage), plus a push notification if their Settings say so. Thorough but short: report what happened (counts and brand names), never how you decided it. No reasoning, no list of brands you looked at and skipped, no steps or tool details. Leave out any line with nothing in it. Aim for something they can read in under 30 seconds:
 - New drafts: how many in Ready to Send and how many in Needs Email (list those brands, with any generic address or LinkedIn name you found, so they can find a better contact or send through Bento).
 - Follow-ups sent (brand + which number), and brands that replied (with the label you gave each).
 - Instagram (only if DMs are on): DMs sent, replies, and emails moved into drafts (section 5b).
