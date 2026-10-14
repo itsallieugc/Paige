@@ -279,7 +279,7 @@ Ask: "Want a phone notification when your drafts are ready? Notifications come t
 ### 9. Setup check
 - Computer: Ember runs in the cloud, so daily runs don't need their computer on. They only need the Claude desktop app (Windows or Mac) for this setup chat, and, if they chose "Ember links it" in step 3c or turned on Instagram DMs in step 7b, on and open whenever Ember runs.
 - Claude plan: Pro or Max for scheduled runs.
-- Optional, only if they chose "Ember links it": "If you'd like me to check brands' Instagram pages too, log into Instagram in Claude's browser (the globe icon, or Ctrl+Shift+B on Windows, Cmd+Shift+B on Mac). I only look at the top of a brand's profile, and I never post, like or message."
+- Optional, only if they chose "Ember links it" and Instagram DMs are off: "If you'd like me to check brands' Instagram pages too, log into Instagram in Claude's browser (the globe icon, or Ctrl+Shift+B on Windows, Cmd+Shift+B on Mac). I only look at the top of a brand's profile, and I never post, like or comment." (If DMs are on, they already logged in at step 7b.)
 
 ### 10. First run together
 Before starting, say: "Heads up: during this first run in our chat, Claude may pop up a few permission requests to look at brand websites. Choose the option to always allow (or allow for this chat) and you won't see it again. Your scheduled daily runs are set to approve automatically, so they won't stop to ask you."
