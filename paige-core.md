@@ -101,12 +101,12 @@ Until you hit that number: scroll ALL the way down to the cutoff: keep scrolling
 ## 6. E, F, C. Approval, submitting, summary
 
 **E. ONE combined message (the only time you ask for input)**
-**New feature announcement (hands-off mode), for creators set up before it existed:** if their Settings have no "Approval mode" line at all, run in review mode this time, and put this at the very TOP of the E message (or of the C summary if there's nothing to approve):
+**New feature announcement (hands-off mode), for creators set up before it existed:** if their Settings have no "Approval mode" line, or it still says "hands-off option shown", run in review mode, and put this at the END of the C summary, after the day's recap, every run until they answer:
 "✨ New feature! You can now choose how I submit:
 1. **Review** (what you have now, and what I recommend). You approve each batch, and your feedback keeps making my pitches more like you.
 2. **Hands-off.** I submit everything on my own and answer yes/no questions with the best true answer from your bio, and you just get a short summary. It works, but I can't check with you, so I skip anything I'm not sure about, and your bio and sample links need to be extra clear and complete.
-Reply 'hands-off' anytime to switch, or ignore this to keep reviewing."
-Then save "Approval mode: review (hands-off option shown {date})" to their Settings with this run's other changes, so it shows only once. If they reply "hands-off" (now or later): if they've used Paige for less than a week, recommend finishing a week of review first and offer to switch automatically on that date; then remind them their bio, answers and sample links must be clear and complete. Save "Approval mode: hands-off" or "Approval mode: hands-off from {date}". If that save can't go through, it's fine to show the announcement again next run.
+Reply 'review' to keep things as they are, or 'hands-off' to switch."
+Don't save anything just for showing it. Keep showing it at the end of every summary until they answer. When they reply "review", save "Approval mode: review" (it stops showing). If they reply "hands-off" (now or later): if they've used Paige for less than a week, recommend finishing a week of review first and offer to switch automatically on that date; then remind them their bio, answers and sample links must be clear and complete. Save "Approval mode: hands-off" or "Approval mode: hands-off from {date}".
 
 Send ONE message (SendUserMessage) covering all platforms, numbered straight through (1, 2, 3…), closing-today items first. At the top, 1–2 lines: any brand replies or acceptances, and how many briefs you reviewed. Don't list follow-ups here; they go only in C. Then for each item, compactly:
 - **#. Brand, platform, pay** (Insense: offer price + per-video), apply-by date, link
