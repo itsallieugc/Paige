@@ -74,7 +74,7 @@ If the list shows when they applied, also skip briefs where no follow-up can be 
 Skip the brief entirely (send nothing) if ANY of these is true:
 - it's accepted, declined, closed, or no longer "Brand is reviewing"
 - today is after its "Accepted by" date
-- the brand has replied in the chat (instead, tell the creator about the reply in E and C)
+- the brand has replied in the chat (just skip it; don't report the reply)
 - one of their follow-ups was already sent to this brief TODAY (at most one follow-up per brief per calendar day)
 
 Otherwise send the next due follow-up from their Settings, EXACTLY as written (count which ones are already in the chat by matching the text). Numbered follow-ups go out in order, each at its number of days after applying. A final day-before-closing follow-up, if they have one, goes out the day before the brief's "Apply by" date, takes priority over a numbered one that day, and is sent once only with nothing after it. If that day is a Saturday or Sunday, send it on the Friday before.
@@ -108,7 +108,7 @@ Until you hit that number: scroll ALL the way down to the cutoff: keep scrolling
 Reply 'review' to keep things as they are, or 'hands-off' to switch."
 Don't save anything just for showing it. Keep showing it at the end of every summary until they answer. When they reply "review", save "Approval mode: review" (it stops showing). If they reply "hands-off" (now or later): if they've used Paige for less than a week, recommend finishing a week of review first and offer to switch automatically on that date; then remind them their bio, answers and sample links must be clear and complete. Save "Approval mode: hands-off" or "Approval mode: hands-off from {date}".
 
-Send ONE message (SendUserMessage) covering all platforms, numbered straight through (1, 2, 3…), closing-today items first. At the top, 1–2 lines: any brand replies or acceptances, and how many briefs you reviewed. Don't list follow-ups here; they go only in C. Then for each item, compactly:
+Send ONE message (SendUserMessage) covering all platforms, numbered straight through (1, 2, 3…), closing-today items first. At the top, one line: how many briefs you reviewed. Never report brand replies, acceptances or declines anywhere (the platforms email the creator about those). Don't list follow-ups here; they go only in C. Then for each item, compactly:
 - **#. Brand, platform, pay** (Insense: offer price + per-video), apply-by date, link
 - Campaign type + the signal that decided it + one line on how the pitch follows that type's strategy; flags (posts on their account / ads from their profile + duration / sensitive topic / uses a health or family detail)
 - The pitch (full text)
@@ -135,7 +135,6 @@ Then wait for their ONE reply. Treat anything they don't mention as not approved
 The creator wants results, not a play-by-play. Report what happened, never how you decided it: no reasoning, no list of briefs you looked at or skipped and why, no steps you took, no tool or page details. Use this shape, and leave out any line with nothing in it:
 - **Submitted (N):** Cohley: Brand ($pay), Brand ($pay). Insense: Brand ($offer), Brand ($offer).
 - **Follow-ups sent (N):** Brand (#1), Brand (#2).
-- **Brand replies / acceptances:** Brand: one-line gist.
 - **Needs you:** only things they must act on, each with its link: a follow-up that failed (with the exact message to paste), a submission that failed, an upload, and (hands-off mode) "Skipped, needs you" briefs.
 - **Saved to your Creator File:** one line, only if you saved something.
 - The health-check line, only if the last run didn't finish.
